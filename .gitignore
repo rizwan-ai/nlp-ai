@@ -127,6 +127,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+venv-nlp-ai/
 
 # Spyder project settings
 .spyderproject
