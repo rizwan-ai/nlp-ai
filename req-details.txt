@@ -1,0 +1,36 @@
+NLP with AI 
+-----------
+
+Python Download (Windows)
+https://www.python.org/downloads/release/python-3118/
+Release Date: Feb. 6, 2024
+Windows installer (64-bit) Recommended
+
+Python Version (3.11.8)
+python --version 
+
+Create and Use Virtual Environments (Windows)
+python -m venv venv-nlp-ai
+venv-nlp-ai\Scripts\activate
+
+Requirements Text File
+pip freeze > requirements.txt
+
+Jupyter Kernel
+pip install ipykernel
+ipykernel==6.29.4
+ipython==8.22.2
+jupyter_client==8.6.1
+jupyter_core==5.7.2
+Installing collected packages: wcwidth, pywin32, pure-eval, traitlets, tornado, six, pyzmq, pygments, psutil, prompt-toolkit, platformdirs, parso, packaging, nest-asyncio, executing, decorator, debugpy, colorama, python-dateutil, matplotlib-inline, jupyter-core, jedi, comm, asttokens, stack-data, jupyter-client, ipython, ipykernel
+pip freeze > requirements.txt
+Total installed packages: 28
+
+NLTK (Natural Language Toolkit)
+pip install nltk
+nltk==3.8.1
+joblib==1.3.2
+regex==2023.12.25
+Installing collected packages: tqdm, regex, joblib, click, nltk
+pip freeze > requirements.txt
+Total installed packages: 33
